@@ -4,9 +4,9 @@ window.onload = function() {
         
         emailjs.sendForm('service_35h7eff', 'template_ertx21h', this)
             .then(function() {
-                console.log('Uğurla göndərildi!');
+                alert('Uğurla göndərildi!');
             }, function(error) {
-                console.log('Xəta baş verdi...', error);
+               alert('Xəta baş verdi...', error);
             });
     });
 }
